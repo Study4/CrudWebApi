@@ -14,10 +14,6 @@ namespace Crud_WebApi.Api
     {
         protected void Application_Start()
         {
-            // Application Insight
-            Microsoft.ApplicationInsights.Extensibility.
-                TelemetryConfiguration.Active.InstrumentationKey = WebConfigurationManager.AppSettings["APPINSIGHTS_INSTRUMENTATIONKEY"];
-
             AutofacConfig.Configure();
 
             GlobalConfiguration.Configure(WebApiConfig.Register);
