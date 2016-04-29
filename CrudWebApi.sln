@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WSL", "WSL", "{14F39D1E-1440-4BCF-9185-E7A346337842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{78B32797-8B3C-4772-9480-36F82308651A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{AEAC834A-894E-4248-833C-5EE8848C8771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{9AE163CC-CACB-471A-BFC4-4090C7874F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApi.Bll", "BLL\CrudWebApi.Bll\CrudWebApi.Bll.csproj", "{AB464261-8B31-4927-BA2D-D8FD5390FA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApi.Dal", "DAL\CrudWebApi.Dal\CrudWebApi.Dal.csproj", "{1D5AB98C-5A19-4186-B8BB-BE071226D33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApi.Model", "Model\CrudWebApi.Model\CrudWebApi.Model.csproj", "{D8C27343-B51D-4B53-92FE-F990F6DC8DBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudWebApi.Api", "WSL\CrudWebApi.Api\CrudWebApi.Api.csproj", "{90106BC7-A5A4-43C5-8638-147F8BB1A69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB464261-8B31-4927-BA2D-D8FD5390FA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB464261-8B31-4927-BA2D-D8FD5390FA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB464261-8B31-4927-BA2D-D8FD5390FA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB464261-8B31-4927-BA2D-D8FD5390FA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5AB98C-5A19-4186-B8BB-BE071226D33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5AB98C-5A19-4186-B8BB-BE071226D33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5AB98C-5A19-4186-B8BB-BE071226D33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5AB98C-5A19-4186-B8BB-BE071226D33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C27343-B51D-4B53-92FE-F990F6DC8DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C27343-B51D-4B53-92FE-F990F6DC8DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C27343-B51D-4B53-92FE-F990F6DC8DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C27343-B51D-4B53-92FE-F990F6DC8DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90106BC7-A5A4-43C5-8638-147F8BB1A69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90106BC7-A5A4-43C5-8638-147F8BB1A69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90106BC7-A5A4-43C5-8638-147F8BB1A69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90106BC7-A5A4-43C5-8638-147F8BB1A69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB464261-8B31-4927-BA2D-D8FD5390FA8E} = {78B32797-8B3C-4772-9480-36F82308651A}
+		{1D5AB98C-5A19-4186-B8BB-BE071226D33D} = {9AE163CC-CACB-471A-BFC4-4090C7874F8E}
+		{D8C27343-B51D-4B53-92FE-F990F6DC8DBE} = {AEAC834A-894E-4248-833C-5EE8848C8771}
+		{90106BC7-A5A4-43C5-8638-147F8BB1A69E} = {14F39D1E-1440-4BCF-9185-E7A346337842}
+	EndGlobalSection
+EndGlobal
