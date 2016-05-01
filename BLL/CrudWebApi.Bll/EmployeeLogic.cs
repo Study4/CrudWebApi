@@ -49,8 +49,7 @@ namespace CrudWebApi.Bll
             if (model.EmployeeID != 0)
             {
                 //更新
-                _db.Employees.Attach(model);
-
+                _db.Entry(model).State = System.Data.Entity.EntityState.Modified;
             }
             else
             {
